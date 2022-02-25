@@ -1,0 +1,17 @@
+{
+  "name": "server_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 3006 -w db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json": "^11.0.0",
+    "json-server": "^0.17.0",
+    "server": "^1.0.37"
+  }
+}
